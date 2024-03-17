@@ -1,52 +1,55 @@
 <!DOCTYPE html>
-<!--=== Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!----======== CSS ======== -->
-    <link rel="stylesheet" href="style.css">
-    
-    <!--===== Boxicons CSS =====-->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-     
-    <title>GET YOUR NOTES </title> 
-</head>
-<body>
-    <h1>GET YOUR NOTES</h1>
-    <div class="select-menu">
-        <div class="select-btn">
-            <span class="sBtn-text">Select your course</span>
-            <i class="bx bx-chevron-down"></i>
-        </div>
-
-        <ul class="options">
-            <li class="option">
-                <i></i>
-                <span class="option-text">BCA</span>
-            </li>
-            <li class="option">
-                <i></i>
-                <span class="option-text">MCA</span>
-            </li>
-            <li class="option">
-                <i></i>
-                <span class="option-text">BBA</span>
-            </li>
-            <li class="option">
-                <i></i>
-                <span class="option-text">MBA</span>
-            </li>
-            <li class="option">
-                <i></i>
-                <span class="option-text">B.COM</span>
-            </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rudrax-space | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Rudrax</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-    </div>
-
-    <script src="script.js"></script>
-         
-</body>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Rudra<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Rudra, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/images.png" alt="profile" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
